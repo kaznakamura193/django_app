@@ -1,5 +1,10 @@
 from django import forms
 
 class HelloForm(forms.Form):
-    check = forms.NullBooleanField(label='Check')
+    data=[
+            ('one','item 1'),
+            ('two','item 2'),
+            ('three','item 3')
+        ]
+    choice = forms.ChoiceField(label='choice',choices=data)
    
