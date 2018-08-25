@@ -16,12 +16,8 @@ class HelloView(TemplateView):
        return render(request, 'hello/index.html', self.params)
    
    def post(self, request):
-       if ('click' in request.POST):
-          self.params['result']= 'Checked!!'
-          
-       else:
-          self.params['result']= 'not checked...'
-          
+       chk = request.POST['check']
+       self.params['result']= 'you selected: "'+ chk +'".'
        self.params['form']= HelloForm(request.POST)
        return render(request,'hello/index.html',self.params)
 
