@@ -8,6 +8,6 @@ class HelloForm(forms.Form):
             ('four','item 4'),
             ('five','item 5')
         ]
-    choice = forms.ChoiceField(label='radio',\
-             choices=data,widget=forms.Select(attrs={'size': 5}))
+    choice = forms.MultipleChoiceField(label='radio',\
+             choices=data,widget=forms.SelectMultiple(attrs={'size': 6}))
    
