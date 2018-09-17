@@ -1,8 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.shortcuts import redirect
+from django.db.models import Q
 from .models import Friend
 from .forms import FriendForm
+from .forms import FindForm
 
 def index(request):
     data=Friend.objects.all()
@@ -53,4 +55,23 @@ def delete(request, num):
         'obj':friend,
     }
     return render(request,'hello/delete.html', params)
+
+def find(request):
+    if (request.method == 'POST'):
+        msg = 'serch result:'
+        form = FindForm(request.POST)
+        str = request.POST['find']
+        data = Friend.objects.filter(Q(name__contains=str)|Q(mail__contains=str))
+    else:
+        msg = 'serch words...'
+        form = FindForm()
+        data = Friend.objects.all()
+    params = {
+        'title': 'Hello',
+        'message': msg,
+        'form': form,
+        'data': data,
+    }
+    return render(request, 'hello/find.html', params)
+
 
