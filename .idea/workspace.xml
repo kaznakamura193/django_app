@@ -38,13 +38,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1074" />
-          <entry key="py" value="2105" />
+          <entry key="py" value="2243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1074" />
-          <entry key="Python" value="2105" />
+          <entry key="Python" value="2243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -67,11 +67,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-875">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="-229">
+              <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1537169805941" expanded="true" signature="1953:2456" ph="..." />
+                <marker date="1537170527499" expanded="true" signature="1953:2493" ph="..." />
               </folding>
             </state>
           </provider>
@@ -114,8 +114,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="194" />
+    <option name="x" value="84" />
+    <option name="y" value="168" />
     <option name="width" value="2404" />
     <option name="height" value="1526" />
   </component>
@@ -240,7 +240,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="97" width="1202" height="763" extended-state="0" />
+    <frame x="42" y="84" width="1202" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.2813036" />
@@ -389,11 +389,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="-229">
+          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1537169805941" expanded="true" signature="1953:2456" ph="..." />
+            <marker date="1537170527499" expanded="true" signature="1953:2493" ph="..." />
           </folding>
         </state>
       </provider>
