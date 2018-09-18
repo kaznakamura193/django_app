@@ -96,7 +96,8 @@ def check(request):
         'form': CheckForm()
     }
     if (request.method == 'POST'):
-        form = CheckForm(request.POST)
+        obj = Friend()
+        form = FriendForm(request.POST, instance=obj)
         params['form']=form
         if (form.is_valid()):
             params['message']= 'OK!'
