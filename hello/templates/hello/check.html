@@ -10,10 +10,21 @@
 <body>
     <h1>{{title}}</h1>
     <p>{{message}}</p>
+    <hr>
+    <ol>
+        {% for item in form %}
+        <li>{{ item.name }} ({{ item.value}})
+            :{{ item.errors.as_text }}</li>
+        {% endfor %}
+    </ol>
     <table>
         <form action="{% url 'check' %}"method="post">
             {% csrf_token %}
-            {{form.as_table}}
+            <tr><th>名前</th><td>{{ form.name }}</td></tr>
+            <tr><th>メール</th><td>{{ form.mail}}</td></tr>
+            <tr><th>性別</th><td>{{ form.gender}}</td></tr>
+            <tr><th>年連</th><td>{{ form.age }}</td></tr>
+            <tr><th>誕生日</th><td>{{ form.birthday }}</td></tr>
         <tr><td></td><td><input type="submit" value="click"></td></tr>
         </form>
     </table>
