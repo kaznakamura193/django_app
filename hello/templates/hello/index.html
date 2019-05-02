@@ -17,6 +17,7 @@
           <th>age</th>
           <th>mail</th>
           <th>birthday</th>
+          <th>Message</th>
       </tr>
     {% for item in data %}
       <tr>
@@ -25,10 +26,15 @@
           <td>{{item.age}}</td>
           <td>{{item.mail}}</td>
           <td>{{item.birthday}}</td>
+      <td><ul>
+          {% for ob in item.message_set.all %}
+               <li>{{ob.title}}</li>
+          {% endfor %}
+      </ul></td>
       </tr>
     {% endfor %}   
     </table>
-    <div class="pagination">
+    <div>
         {% if data.has_previous %}
             <a href="{% url 'index' %}">&laquo;first</a>
             <a href="{% url 'index' %}{{data.previous_page_number}}">&laquo;prev</a>

@@ -8,47 +8,57 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/django_app$views.coverage" NAME="views Coverage Results" MODIFIED="1537584147445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-332573285">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="9" />
+          <entry key="html" value="14" />
           <entry key="js" value="1" />
-          <entry key="py" value="18" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="9" />
-          <entry key="Python" value="18" />
+          <entry key="HTML" value="14" />
+          <entry key="Python" value="23" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2014" />
-          <entry key="py" value="3687" />
+          <entry key="html" value="2387" />
+          <entry key="py" value="4640" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2014" />
-          <entry key="Python" value="3687" />
+          <entry key="HTML" value="2387" />
+          <entry key="Python" value="4640" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -60,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -72,48 +82,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="187">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1537267519542" expanded="true" signature="103:113" ph="..." />
+                <marker date="1537660295214" expanded="true" signature="111:121" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello/views.py">
+        <entry file="file://$PROJECT_DIR$/hello/templates/hello/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1537274479628" expanded="true" signature="361:370" ph="..." />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello/templates/hello/index.html">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="51">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
-                <element signature="e#785#792#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,6 +121,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -130,9 +130,11 @@
         <option value="$PROJECT_DIR$/hello/templates/hello/edit.html" />
         <option value="$PROJECT_DIR$/hello/templates/hello/delete.html" />
         <option value="$PROJECT_DIR$/hello/templates/hello/find.html" />
-        <option value="$PROJECT_DIR$/hello/forms.py" />
-        <option value="$PROJECT_DIR$/hello/models.py" />
         <option value="$PROJECT_DIR$/hello/templates/hello/check.html" />
+        <option value="$PROJECT_DIR$/hello/admin.py" />
+        <option value="$PROJECT_DIR$/hello/models.py" />
+        <option value="$PROJECT_DIR$/hello/forms.py" />
+        <option value="$PROJECT_DIR$/hello/templates/hello/message.html" />
         <option value="$PROJECT_DIR$/hello/views.py" />
         <option value="$PROJECT_DIR$/hello/urls.py" />
         <option value="$PROJECT_DIR$/hello/templates/hello/index.html" />
@@ -146,10 +148,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
-    <option name="y" value="48" />
-    <option name="width" value="2404" />
-    <option name="height" value="1526" />
+    <option name="x" value="148" />
+    <option name="y" value="142" />
+    <option name="width" value="2356" />
+    <option name="height" value="1626" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -216,12 +218,7 @@
             <path>
               <item name="django_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="django_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="django_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="hello" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sns" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -259,13 +256,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hello" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\KAZUHISA NAKAMURA\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello/views.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/django_app" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,7 +278,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\KAZUHISA NAKAMURA\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -293,23 +290,31 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="24" width="1202" height="763" extended-state="0" />
-    <editor active="true" />
+    <frame x="74" y="71" width="1178" height="813" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.296741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.35357141" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3449367" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3443918" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939487" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328594" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32980332" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32980332" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49732143" visible="true" weight="0.30307466" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026786" side_tool="true" visible="true" weight="0.30307466" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -372,9 +377,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -399,24 +402,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello/templates/hello/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello/templates/hello/delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/templates/hello/find.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -427,10 +416,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hello/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/templates/hello/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/templates/hello/find.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/templates/hello/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/templates/hello/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hello/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -439,45 +468,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1537267519542" expanded="true" signature="103:113" ph="..." />
+            <marker date="1537660295214" expanded="true" signature="111:121" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello/views.py">
+    <entry file="file://$PROJECT_DIR$/hello/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="51">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1537274479628" expanded="true" signature="361:370" ph="..." />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello/templates/hello/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="e#785#792#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
